@@ -1,0 +1,60 @@
+html{
+    background-color: #333232;
+    height:100%;
+}
+#User{
+    height: 325px;
+    width: 350px;
+    background-color:#F5E4C3 ;
+    display:grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 75px 75px 75px 75px;
+    grid-template-areas: 
+    ". bill"
+    ". tp"
+    ". np"
+    "button button";
+    margin: 0 auto;
+    border: 5px solid #888169;
+    padding: 25px;
+}
+#bill{
+    grid-area: bill;
+}
+#tp{
+    grid-are:tp;
+}
+#np
+{
+    grid-are:np;
+}
+.styling{
+    height: 25px;
+    weidth: 250px;
+}
+#button{
+grid-area: button;
+height: 25px;
+width: :auto;
+}
+#User2{
+    height: 125px;
+    width: 350px;
+    background-color:#F5E4C3 ;
+    display:grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 75px 75px 75px 75px;
+    grid-template-areas: 
+    ". tpp"
+    ". topp";
+    margin: 0 auto;
+    border: 5px solid #888169;
+    padding: 25px;
+}
+#tpp{
+    grid-are:tpp;
+}
+#topp
+{
+    grid-are:topp;
+}
